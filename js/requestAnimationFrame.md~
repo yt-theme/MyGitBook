@@ -1,0 +1,23 @@
+html5新动画api
+
+> 后接一个回调作为参数
+
+```
+ani = requestAnimationFrame(callback)
+```
+
+```
+let timer = requestAnimationFrame(function() {
+	console.log(1)
+})
+console.log(timer)
+```
+
+cancelAnimationFrame取消动画
+
+```
+let timer = requestAnimationFrame(function() {
+	console.log(1)
+})
+cancelAnimationFrame(1)
+```
