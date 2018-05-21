@@ -971,3 +971,5 @@ netfilter用以对数据进行过滤
 ```
 
 ```
+#### manjaro china
+sudo pacman-mirrors -i -c China -m rank
