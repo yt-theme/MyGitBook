@@ -1,0 +1,2 @@
+rustup如果很慢，可以通过临时加一个环境变量，临时改源
+RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
